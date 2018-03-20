@@ -253,8 +253,8 @@ MonoBehaviour:
     y: 0
     width: 257
     height: 683
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -477,7 +477,7 @@ MonoBehaviour:
       width: 837
       height: 431
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
   m_LastWindowPixelSize: {x: 1674, y: 896}
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0775131, y: -0.901323, z: 0.385756, w: -0.18111017}
     speed: 2
-    m_Value: {x: -0.0775131, y: -0.901323, z: 0.385756, w: -0.18111017}
+    m_Value: {x: 0.0775131, y: 0.901323, z: -0.38575602, w: 0.18111017}
   m_Size:
     m_Target: 7.9371204
     speed: 2
@@ -590,23 +590,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 70010000
+    m_SelectedIDs: 9a010000
     m_LastClickedID: 0
-    m_ExpandedIDs: 38cdf4ff00cef4fff2d0f4ffac0ef5ff740ff5ff6012f5ff649af5ff2c9bf5ff1e9ef5ffa6ddf5ff2edef5ff20e1f5ff3c0ef6ff040ff6fff011f6ff2ae4f8ff64f4f8ff8a5cf9ff326af9fff244faffc645faffba48faff0e42fcfff048fcff0467fdff14fafdffa075feffc6c6ffff96fbffff00000000942e0000a42e0000bc2e0000e02e0000f42e00007e2f0000cc4c0000dc4c00004c4d0000ac4d00002a4e0000845f0000965f0000a65f0000dc5f0000066000001e6000005260000088600000e460000016610000688c00007a8c00008c8c0000b48c0000cc8c0000148d0000428d0000788d0000d68d0000128e0000
+    m_ExpandedIDs: 96fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Panel
-      m_OriginalName: Panel
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 35872
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -642,7 +642,7 @@ MonoBehaviour:
     width: 582
     height: 662
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 1121.4551}
+  m_ScrollPosition: {x: 0, y: 361.75888}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 163
@@ -677,7 +677,7 @@ MonoBehaviour:
     height: 251
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: lean scale
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -688,19 +688,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/LeanTouch/Examples+/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/LeanTouch/Examples+/Scripts
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: /Users/michelle/Documents/GitHub/ButterflyAR/ButterflyAR2
+  m_LastProjectPath: /Users/michelle/OneDrive/1D PROJECTS/000 VR projects/Unity Projects/for
+    builds/ButterflyAR2 build1/ButterflyAR2
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 000000005a2a0000a42a0000802b0000ca2b0000da2b00001e2c0000542d0000b02d0000423000004c4e000000ca9a3bffffff7f
+    m_SelectedIDs: 302b0000
+    m_LastClickedID: 11056
+    m_ExpandedIDs: 00000000302b0000962b0000be2c0000222d0000362d0000902d00007a2e0000122f00009c2f0000ce32000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -728,7 +729,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005a2a0000a42a0000802b0000ca2b00001e2c0000542d000042300000
+    m_ExpandedIDs: 00000000302b0000962b0000be2c0000222d0000362d0000902d00007a2e0000122f00009c2f0000ce320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -755,22 +756,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000000000003e060000904b0000ae290000902a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: OJ_button
-      m_OriginalName: OJ_button
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 2298
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:

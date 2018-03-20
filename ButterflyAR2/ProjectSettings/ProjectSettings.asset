@@ -159,9 +159,11 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.mpdodson.ButterflyAR2
-    iOS: com.IVP.ButterflyAR
+    Standalone: T2KSL7CG64.com.IVP.ButterflyAR
+    iOS: T2KSL7CG64.com.IVP.ButterflyAR
+    tvOS: T2KSL7CG64.com.IVP.ButterflyAR
   buildNumber:
+    Standalone: 1
     iOS: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -181,10 +183,10 @@ PlayerSettings:
     serializedVersion: 2
     m_Bits: 238
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 11.2
+  iOSTargetOSVersionString: 10.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
-  tvOSTargetOSVersionString: 9.0
+  tvOSTargetOSVersionString: 10.0
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -224,20 +226,23 @@ PlayerSettings:
   tvOSTopShelfImageWideLayers: []
   tvOSTopShelfImageWideLayers2x: []
   iOSLaunchScreenType: 3
-  iOSLaunchScreenPortrait: {fileID: 0}
-  iOSLaunchScreenLandscape: {fileID: 0}
+  iOSLaunchScreenPortrait: {fileID: 2800000, guid: ea82138ad0c3749dd8bf4363d7a1b3db,
+    type: 3}
+  iOSLaunchScreenLandscape: {fileID: 2800000, guid: ea82138ad0c3749dd8bf4363d7a1b3db,
+    type: 3}
   iOSLaunchScreenBackgroundColor:
     serializedVersion: 2
     rgba: 0
-  iOSLaunchScreenFillPct: 100
+  iOSLaunchScreenFillPct: 75
   iOSLaunchScreenSize: 100
   iOSLaunchScreenCustomXibPath: 
-  iOSLaunchScreeniPadType: 0
-  iOSLaunchScreeniPadImage: {fileID: 0}
+  iOSLaunchScreeniPadType: 3
+  iOSLaunchScreeniPadImage: {fileID: 2800000, guid: ea82138ad0c3749dd8bf4363d7a1b3db,
+    type: 3}
   iOSLaunchScreeniPadBackgroundColor:
     serializedVersion: 2
     rgba: 0
-  iOSLaunchScreeniPadFillPct: 100
+  iOSLaunchScreeniPadFillPct: 75
   iOSLaunchScreeniPadSize: 100
   iOSLaunchScreeniPadCustomXibPath: 
   iOSUseLaunchScreenStoryboard: 0
@@ -380,11 +385,16 @@ PlayerSettings:
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 0
+  - m_BuildTarget: AppleTVSupport
+    m_APIs: 10000000
+    m_Automatic: 0
   m_BuildTargetVRSettings: []
   m_BuildTargetEnableVuforiaSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 1
   - m_BuildTarget: iOS
+    m_Enabled: 1
+  - m_BuildTarget: Android
     m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -414,7 +424,7 @@ PlayerSettings:
   wiiUProfilerLibPath: 
   playModeTestRunnerEnabled: 0
   actionOnDotNetUnhandledException: 1
-  enableInternalProfiler: 0
+  enableInternalProfiler: 1
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
   cameraUsageDescription: Camera access required for target detection and tracking
