@@ -127,7 +127,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.4
+  bundleVersion: 1.5
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -160,11 +160,11 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Standalone: T2KSL7CG64.com.IVP.ButterflyAR
-    iOS: T2KSL7CG64.com.IVP.ButterflyAR
+    iOS: com.IVP.ButterflyAR
     tvOS: T2KSL7CG64.com.IVP.ButterflyAR
   buildNumber:
     Standalone: 1
-    iOS: 1
+    iOS: 2
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0

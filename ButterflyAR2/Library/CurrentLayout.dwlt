@@ -642,7 +642,7 @@ MonoBehaviour:
     width: 582
     height: 662
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 361.75888}
+  m_ScrollPosition: {x: 0, y: 534.0051}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 163
@@ -694,8 +694,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: /Users/michelle/OneDrive/1D PROJECTS/000 VR projects/Unity Projects/for
-    builds/ButterflyAR2 build1/ButterflyAR2
+  m_LastProjectPath: /Users/michelle/Documents/GitHub/ButterflyAR2/ButterflyAR2
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
