@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{DAD1CE22-810C-0403-B4F4-E589037EF32D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFacingBillboard.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Textures/ShadowShader.shader">
     <Files>
       <File FileName="Assets/Scripts/ButtonYellow.cs" Line="23" Column="46" />
       <File FileName="Assets/Scripts/ButtonGreen.cs" Line="34" Column="2" />
@@ -9,6 +9,10 @@
       <File FileName="Assets/Scripts/triggerYellowAnim.cs" Line="1" Column="1" />
       <File FileName="Assets/LeanTouch/Examples/Scripts/LeanScale.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/CameraFacingBillboard.cs" Line="14" Column="1" />
+      <File FileName="Temp/ParsedCombinations-Standard.shader" Line="2" Column="1" />
+      <File FileName="Assets/Textures/New Material.mat" Line="1" Column="1" />
+      <File FileName="Assets/Textures/ShadowShader.shader" Line="20" Column="3" />
+      <File FileName="Temp/GeneratedFixedFunction-UnlitShadows-UnlitShadowReceive.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
