@@ -13,6 +13,7 @@ ModelImporter:
     100010: wings_left_top
     100012: wings_right_bottom
     100014: wings_right_top
+    100016: Null
     400000: body
     400002: //RootNode
     400004: left
@@ -21,6 +22,7 @@ ModelImporter:
     400010: wings_left_top
     400012: wings_right_bottom
     400014: wings_right_top
+    400016: Null
     2100000: WingYellow
     2100002: body
     2300000: body
