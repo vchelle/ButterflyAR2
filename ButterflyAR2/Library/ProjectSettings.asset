@@ -164,7 +164,7 @@ PlayerSettings:
     tvOS: T2KSL7CG64.com.IVP.ButterflyAR
   buildNumber:
     Standalone: 1
-    iOS: 2
+    iOS: 3
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0

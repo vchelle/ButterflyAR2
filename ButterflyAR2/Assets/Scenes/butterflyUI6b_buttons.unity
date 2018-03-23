@@ -2218,12 +2218,12 @@ Light:
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
-    m_Resolution: -1
+    m_Resolution: 3
     m_CustomResolution: -1
     m_Strength: 0.889
-    m_Bias: 0.107
-    m_NormalBias: 0.43
-    m_NearPlane: 0.38
+    m_Bias: 0.036
+    m_NormalBias: 0.05
+    m_NearPlane: 0.24
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
