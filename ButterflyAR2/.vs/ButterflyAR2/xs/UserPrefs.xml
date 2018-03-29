@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{DAD1CE22-810C-0403-B4F4-E589037EF32D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../IVPArtworkAR/IVPArtworkAR/Assets/Shaders/beige.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TurnEvOff.cs">
     <Files>
-      <File FileName="Temp/ParsedCombinations-Standard.shader" Line="2" Column="1" />
       <File FileName="Assets/Scripts/Waypoints/Waypoint.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Waypoints/WaypointsHolder.js" Line="3" Column="6" />
       <File FileName="Assets/Scripts/Waypoints/WaypointMover.js" Line="313" Column="1" />
       <File FileName="../../IVPArtworkAR/IVPArtworkAR/Assets/Shaders/beige.shader" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TurnEvOff.cs" Line="25" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

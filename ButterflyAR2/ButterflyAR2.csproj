@@ -498,6 +498,7 @@
     <Compile Include="Assets\Scripts\OJ_button.cs" />
     <Compile Include="Assets\Scripts\TextTest.cs" />
     <Compile Include="Assets\Scripts\triggerYellowAnim.cs" />
+    <Compile Include="Assets\Scripts\TurnEvOff.cs" />
     <Compile Include="Assets\Scripts\VButtonOrange.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
