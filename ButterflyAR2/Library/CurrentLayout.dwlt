@@ -161,7 +161,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 28
+  controlID: 97
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 481, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 74
+  controlID: 98
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 481, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 75
+  controlID: 99
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -543,9 +543,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 1, z: 0, w: 0}
+    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0, y: 1, z: 0, w: 0}
+    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
     m_Target: 6.1754017
     speed: 2
@@ -590,9 +590,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 20320000
-    m_LastClickedID: 12832
-    m_ExpandedIDs: 96fbffff000000004c31000062320000
+    m_SelectedIDs: 6ef2ffff
+    m_LastClickedID: -3474
+    m_ExpandedIDs: 6ef2ffff96fbffff000000004c310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -688,19 +688,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Images
+    - Assets/Scripts/Waypoints
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Images
+  - Assets/Scripts/Waypoints
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/michelle/Documents/GitHub/ButterflyAR2/ButterflyAR2
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 122}
-    m_SelectedIDs: ee2d0000
-    m_LastClickedID: 11758
-    m_ExpandedIDs: 00000000362b00009a2b0000de2d00004433000000ca9a3bffffff7f
+    m_SelectedIDs: 5a2e0000
+    m_LastClickedID: 11866
+    m_ExpandedIDs: 00000000362b00009a2b0000de2d0000163000004433000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300003e060000904b0000ae290000902a000000000000742b00000e2e0000222f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

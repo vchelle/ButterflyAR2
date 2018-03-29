@@ -346,6 +346,7 @@ GameObject:
   - component: {fileID: 145653219}
   - component: {fileID: 145653218}
   - component: {fileID: 145653217}
+  - component: {fileID: 145653220}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -360,7 +361,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 145653215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.95, y: 0.748, z: 1.03}
+  m_LocalPosition: {x: 1.95, y: 1.49, z: 1.03}
   m_LocalScale: {x: 0.53025365, y: 0.5302536, z: 0.5302536}
   m_Children: []
   m_Father: {fileID: 1860273355}
@@ -372,7 +373,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 145653215}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -419,6 +420,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 145653215}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &145653220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 145653215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cffea28b9bbc7495089115efb1f36843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0, g: 1, b: 0, a: 0.5}
+  radius: 0.25
+  iconName: 
+  delay: 0
+  callFunction: 
+  callExitFunction: 
+  newMoverSpeed: 0
 --- !u!1 &156397955
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,6 +723,33 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: cfd92c7d8b68b4fe0ad688fafaba5edf, type: 3}
   m_PrefabInternal: {fileID: 1362691843}
+--- !u!114 &355008313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 355008310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 973a580d8acc0427ea805d3809dc1fb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypointsHolder: {fileID: 1860273356}
+  followingType: 2
+  loopingType: 1
+  MoveOnWayImmediately: 0
+  StartFromNearestWaypoint: 0
+  ignorePositionAtAxis:
+    x: 0
+    y: 0
+    z: 0
+  damping: 3
+  movementSpeed: 1
+  waypointActivationDistance: 1
+  numberOfLoops: 0
+  preventCollisionDistance: 0
+  smoothCollisionPreventing: 0
+  dynamicWaypointsUpdate: 0
 --- !u!1 &418515906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,6 +1244,7 @@ GameObject:
   - component: {fileID: 603090076}
   - component: {fileID: 603090075}
   - component: {fileID: 603090074}
+  - component: {fileID: 603090077}
   m_Layer: 0
   m_Name: Sphere (3)
   m_TagString: Untagged
@@ -1212,7 +1259,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 603090072}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.44, y: 1.248, z: -1.13}
+  m_LocalPosition: {x: -1.44, y: 1.5, z: -1.13}
   m_LocalScale: {x: 0.53025365, y: 0.5302536, z: 0.5302536}
   m_Children: []
   m_Father: {fileID: 1860273355}
@@ -1224,7 +1271,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 603090072}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1271,6 +1318,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 603090072}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &603090077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 603090072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cffea28b9bbc7495089115efb1f36843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0, g: 1, b: 0, a: 0.5}
+  radius: 0.25
+  iconName: 
+  delay: 0
+  callFunction: 
+  callExitFunction: 
+  newMoverSpeed: 0
 --- !u!1 &698092918
 GameObject:
   m_ObjectHideFlags: 0
@@ -2428,6 +2493,33 @@ GameObject:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 5f76a251b37ab4f759a68309e312daae, type: 3}
   m_PrefabInternal: {fileID: 768376390}
+--- !u!114 &1362617141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362617139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 973a580d8acc0427ea805d3809dc1fb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypointsHolder: {fileID: 1860273356}
+  followingType: 2
+  loopingType: 1
+  MoveOnWayImmediately: 0
+  StartFromNearestWaypoint: 0
+  ignorePositionAtAxis:
+    x: 0
+    y: 0
+    z: 0
+  damping: 3
+  movementSpeed: 1
+  waypointActivationDistance: 1
+  numberOfLoops: 0
+  preventCollisionDistance: 0
+  smoothCollisionPreventing: 0
+  dynamicWaypointsUpdate: 0
 --- !u!114 &1362617142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2447,7 +2539,7 @@ MonoBehaviour:
   Relative: 0
   ScaleClamp: 0
   ScaleMin: {x: 0.8, y: 0.8, z: 0.8}
-  ScaleMax: {x: 1.7, y: 1.7, z: 1.7}
+  ScaleMax: {x: 1.6, y: 1.6, z: 1.6}
 --- !u!1001 &1362691843
 Prefab:
   m_ObjectHideFlags: 0
@@ -2969,6 +3061,7 @@ GameObject:
   - component: {fileID: 1744112560}
   - component: {fileID: 1744112559}
   - component: {fileID: 1744112558}
+  - component: {fileID: 1744112561}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Untagged
@@ -2983,7 +3076,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1744112556}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.78, y: 0.498, z: -1.29}
+  m_LocalPosition: {x: 1.78, y: 0.74, z: -1.29}
   m_LocalScale: {x: 0.53025365, y: 0.5302536, z: 0.5302536}
   m_Children: []
   m_Father: {fileID: 1860273355}
@@ -2995,7 +3088,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1744112556}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3042,6 +3135,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1744112556}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1744112561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1744112556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cffea28b9bbc7495089115efb1f36843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0, g: 1, b: 0, a: 0.5}
+  radius: 0.25
+  iconName: 
+  delay: 0
+  callFunction: 
+  callExitFunction: 
+  newMoverSpeed: 0
 --- !u!1 &1779134420
 GameObject:
   m_ObjectHideFlags: 0
@@ -3053,6 +3164,7 @@ GameObject:
   - component: {fileID: 1779134424}
   - component: {fileID: 1779134423}
   - component: {fileID: 1779134422}
+  - component: {fileID: 1779134425}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -3067,7 +3179,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1779134420}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.69, y: 0.498, z: 1.32}
+  m_LocalPosition: {x: -1.69, y: 0.64, z: 1.32}
   m_LocalScale: {x: 0.53025365, y: 0.5302536, z: 0.5302536}
   m_Children: []
   m_Father: {fileID: 1860273355}
@@ -3079,7 +3191,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1779134420}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3126,6 +3238,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1779134420}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1779134425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1779134420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cffea28b9bbc7495089115efb1f36843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0, g: 0, b: 0, a: 0}
+  radius: 0.25
+  iconName: 
+  delay: 0
+  callFunction: 
+  callExitFunction: 
+  newMoverSpeed: 0
 --- !u!21 &1795003473
 Material:
   serializedVersion: 6
@@ -3210,6 +3340,60 @@ MonoBehaviour:
   ScaleClamp: 0
   ScaleMin: {x: 0.8, y: 0.8, z: 0.8}
   ScaleMax: {x: 1.7, y: 1.7, z: 1.7}
+--- !u!114 &1823381455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1823381452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 973a580d8acc0427ea805d3809dc1fb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypointsHolder: {fileID: 0}
+  followingType: 0
+  loopingType: 0
+  MoveOnWayImmediately: 0
+  StartFromNearestWaypoint: 0
+  ignorePositionAtAxis:
+    x: 0
+    y: 0
+    z: 0
+  damping: 3
+  movementSpeed: 5
+  waypointActivationDistance: 1
+  numberOfLoops: 0
+  preventCollisionDistance: 0
+  smoothCollisionPreventing: 0
+  dynamicWaypointsUpdate: 0
+--- !u!114 &1823381456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1823381452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 973a580d8acc0427ea805d3809dc1fb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypointsHolder: {fileID: 1860273356}
+  followingType: 2
+  loopingType: 1
+  MoveOnWayImmediately: 0
+  StartFromNearestWaypoint: 0
+  ignorePositionAtAxis:
+    x: 0
+    y: 0
+    z: 0
+  damping: 3
+  movementSpeed: 1
+  waypointActivationDistance: 1
+  numberOfLoops: 0
+  preventCollisionDistance: 0
+  smoothCollisionPreventing: 0
+  dynamicWaypointsUpdate: 0
 --- !u!1 &1836085804
 GameObject:
   m_ObjectHideFlags: 0
@@ -3586,6 +3770,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1860273355}
+  - component: {fileID: 1860273356}
   m_Layer: 0
   m_Name: Waypoints
   m_TagString: Untagged
@@ -3610,6 +3795,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1860273356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1860273354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e64caac9d26e42379815f4b639b7b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0, g: 1, b: 0, a: 0.5}
+  waypoints:
+  - {fileID: 1779134425}
+  - {fileID: 145653220}
+  - {fileID: 1744112561}
+  - {fileID: 603090077}
+  colorizeWaypoints: 1
 --- !u!1 &1907180246
 GameObject:
   m_ObjectHideFlags: 0
